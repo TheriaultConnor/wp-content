@@ -1,0 +1,38 @@
+/*
+ Theme Name:   Twenty-Twenty-One Child
+ Theme URI:    http://TheriaultConnor.com
+ Description:  Twenty Twenty Child Theme
+ Author:       Connor Theriault
+ Author URI:   http://theriaultConnor.com
+ Template:     twentytwentyone
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentytwentyonechild
+*/
+
+:root {
+    /* Colors */--global--color-black: #000;
+	--global--color-dark-gray: #28303d;
+	--global--color-gray: #39414d;
+	--global--color-light-gray: #f0f0f0;
+	--global--color-green: #d1e4dd;
+	--global--color-blue: #d1dfe4;
+	--global--color-purple: #d1d1e4;
+	--global--color-red: #e4d1d1;
+	--global--color-orange: #e4dad1;
+	--global--color-yellow: #eeeadd;
+	--global--color-white: #fff;
+	--global--color-white-50: rgba(255, 255, 255, 0.5);
+	--global--color-white-90: rgba(148, 178, 216, 0.9);
+    --global--color-darkblue:  #99ccff;
+    
+
+    --global--color-primary: var(--global--color-white:);
+    --global--color-background: var(--global--color-darkblue);
+}
+
+body {
+    background-color: var(--global--color-background);
+}
